@@ -1,0 +1,8 @@
+V3 5
+FL C:/yyy/detektor_zad2/detektor_zadanie2.vhd 2019/12/12.16:46:07 P.20131013
+EN work/detektor_zadanie2 1576165647 \
+      FL C:/yyy/detektor_zad2/detektor_zadanie2.vhd PB ieee/std_logic_1164 1381692176 \
+      LB UNISIM PB ieee/NUMERIC_STD 1381692181 PH unisim/VCOMPONENTS 1381692182
+AR work/detektor_zadanie2/Behavioral 1576165648 \
+      FL C:/yyy/detektor_zad2/detektor_zadanie2.vhd EN work/detektor_zadanie2 1576165647 \
+      CP FDCE

@@ -1,0 +1,15 @@
+V3 9
+FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/sch.vhf 2020/01/16.14:28:01 P.20131013
+EN work/sch 1579181285 FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/sch.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sch/BEHAVIORAL 1579181286 \
+      FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/sch.vhf EN work/sch 1579181285 \
+      CP PS2_Rx CP zamak_szyfrowy_modul
+FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/zamak_szyfrowy_modul.vhd 2020/01/09.16:43:34 P.20131013
+EN work/zamak_szyfrowy_modul 1579181283 \
+      FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/zamak_szyfrowy_modul.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/zamak_szyfrowy_modul/Behavioral 1579181284 \
+      FL C:/Users/lab/lab6/lab5_spartan/lab5_spartan/zamak_szyfrowy_modul.vhd \
+      EN work/zamak_szyfrowy_modul 1579181283

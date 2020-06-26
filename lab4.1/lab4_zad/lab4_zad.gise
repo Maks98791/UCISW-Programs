@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab4_zad.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="detektor6b_moora.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="detektor6b_moora.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="detektor6b_moora.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="detektor6b_moora.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="detektor6b_moora.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="detektor6b_moora.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="detektor6b_moora.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="detektor6b_moora.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="detektor6b_moora.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="detektor6b_moora.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="detektor6b_moora.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="detektor6b_moora.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detektor6b_moora.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detektor6b_moora.rpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="detektor6b_moora.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="detektor6b_moora.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="detektor6b_moora.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="detektor6b_moora.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detektor6b_moora.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detektor6b_moora.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="detektor6b_moora.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detektor6b_moora.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="detektor6b_moora.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="detektor6b_moora_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="detektor6b_moora_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="detektor6b_moora_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detektor6b_moora_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="detektor6b_moora_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="detektor6b_moora_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detektor6b_moora_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detektor6b_moora_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detektor_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detektor_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="detektor_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detektor_testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1576159577" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:prop_ck="660121163389241621" xil_pn:start_ts="1576159577">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576159661" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1576159661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576370900" xil_pn:in_ck="4290160953555224984" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1576370900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detektor6b_moora.vhd"/>
+      <outfile xil_pn:name="detektor_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1576159661" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8175975327790404121" xil_pn:start_ts="1576159661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576370900" xil_pn:in_ck="4290160953555224984" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1576370900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detektor6b_moora.vhd"/>
+      <outfile xil_pn:name="detektor_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1576370903" xil_pn:in_ck="4290160953555224984" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8635423101927287476" xil_pn:start_ts="1576370900">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="detektor_testbench_beh.prj"/>
+      <outfile xil_pn:name="detektor_testbench_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1576371499" xil_pn:in_ck="8541861602010645936" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5464374599995607495" xil_pn:start_ts="1576371499">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="detektor_testbench_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1576158865" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1576158865">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576158865" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6039700124939293558" xil_pn:start_ts="1576158865">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576161425" xil_pn:in_ck="-2691555026184228697" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-7115158101462361955" xil_pn:start_ts="1576161420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="detektor6b_moora.lso"/>
+      <outfile xil_pn:name="detektor6b_moora.ngc"/>
+      <outfile xil_pn:name="detektor6b_moora.ngr"/>
+      <outfile xil_pn:name="detektor6b_moora.prj"/>
+      <outfile xil_pn:name="detektor6b_moora.stx"/>
+      <outfile xil_pn:name="detektor6b_moora.syr"/>
+      <outfile xil_pn:name="detektor6b_moora.xst"/>
+      <outfile xil_pn:name="detektor6b_moora_vhdl.prj"/>
+      <outfile xil_pn:name="detektor6b_moora_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1576161425" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-368544139222811985" xil_pn:start_ts="1576161425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1576161429" xil_pn:in_ck="7701151395206113139" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="920057667651985957" xil_pn:start_ts="1576161425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="detektor6b_moora.bld"/>
+      <outfile xil_pn:name="detektor6b_moora.ngd"/>
+      <outfile xil_pn:name="detektor6b_moora_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1576161435" xil_pn:in_ck="-2691555026184237442" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="6942196748289794400" xil_pn:start_ts="1576161429">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detektor6b_moora.gyd"/>
+      <outfile xil_pn:name="detektor6b_moora.mfd"/>
+      <outfile xil_pn:name="detektor6b_moora.nga"/>
+      <outfile xil_pn:name="detektor6b_moora.pad"/>
+      <outfile xil_pn:name="detektor6b_moora.pnx"/>
+      <outfile xil_pn:name="detektor6b_moora.rpt"/>
+      <outfile xil_pn:name="detektor6b_moora.tim"/>
+      <outfile xil_pn:name="detektor6b_moora.tspec"/>
+      <outfile xil_pn:name="detektor6b_moora.vm6"/>
+      <outfile xil_pn:name="detektor6b_moora.xml"/>
+      <outfile xil_pn:name="detektor6b_moora_build.xml"/>
+      <outfile xil_pn:name="detektor6b_moora_html"/>
+      <outfile xil_pn:name="detektor6b_moora_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1576161436" xil_pn:in_ck="-2691555026184228578" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1576161435">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="detektor6b_moora.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1576159094" xil_pn:in_ck="-2691555026184228578" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1576159092">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

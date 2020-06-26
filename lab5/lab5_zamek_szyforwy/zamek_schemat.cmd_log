@@ -1,0 +1,17 @@
+sch2sym -intstyle ise -family xc9500xl -refsym zamek_schemat C:/lab5/lab5_zamek_szyforwy/zamek_schemat.sch C:/lab5/lab5_zamek_szyforwy/zamek_schemat.sym 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamek_schemat.ngc zamek_schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamek_schemat.ngc zamek_schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamek_schemat.ngd 
+tsim -intstyle ise zamek_schemat zamek_schemat.nga 
+hprep6 -s IEEE1149 -n zamek_schemat -i zamek_schemat 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamek_schemat.ngc zamek_schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamek_schemat.ngd 
+tsim -intstyle ise zamek_schemat zamek_schemat.nga 
+hprep6 -s IEEE1149 -n zamek_schemat -i zamek_schemat 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamek_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamek_schemat.ngc zamek_schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamek_schemat.ngd 
+tsim -intstyle ise zamek_schemat zamek_schemat.nga 
+hprep6 -s IEEE1149 -n zamek_schemat -i zamek_schemat 

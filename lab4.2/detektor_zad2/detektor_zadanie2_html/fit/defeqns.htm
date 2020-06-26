@@ -1,0 +1,35 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FTCPE_intQ0: FTCPE port map (intQ(0),intQ_T(0),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intQ_T(0) <= ((intQ(1) AND NOT intQ(2) AND NOT x)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT intQ(1) AND NOT intQ(0) AND x)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (intQ(2) AND NOT intQ(0) AND x));
+</td></tr><tr><td>
+FDCPE_intQ1: FDCPE port map (intQ(1),intQ_D(1),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intQ_D(1) <= ((intQ(1) AND NOT intQ(2) AND NOT intQ(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT intQ(1) AND intQ(0) AND NOT x));
+</td></tr><tr><td>
+FDCPE_intQ2: FDCPE port map (intQ(2),intQ_D(2),CLK,CLR,'0',CE);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;intQ_D(2) <= ((NOT intQ(1) AND intQ(2) AND NOT x)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (intQ(1) AND NOT intQ(2) AND intQ(0) AND x));
+</td></tr><tr><td>
+</td></tr><tr><td>
+y <= (intQ(1) AND intQ(2) AND NOT intQ(0));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

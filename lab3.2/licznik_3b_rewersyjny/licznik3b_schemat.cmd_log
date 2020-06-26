@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.xst" -ofn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.syr" 
+xst -intstyle ise -ifn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.xst" -ofn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 licznik3b_schemat.ngc licznik3b_schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 licznik3b_schemat.ngc licznik3b_schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 licznik3b_schemat.ngc licznik3b_schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 licznik3b_schemat.ngc licznik3b_schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper licznik3b_schemat.ngd 
+tsim -intstyle ise licznik3b_schemat licznik3b_schemat.nga 
+hprep6 -s IEEE1149 -n licznik3b_schemat -i licznik3b_schemat 

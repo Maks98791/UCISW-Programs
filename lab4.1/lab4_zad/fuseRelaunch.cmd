@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Code/Xilinx/UCISW/lab4.1/lab4_zad/detektor_testbench_isim_beh.exe" -prj "E:/Code/Xilinx/UCISW/lab4.1/lab4_zad/detektor_testbench_beh.prj" "work.detektor_testbench" 

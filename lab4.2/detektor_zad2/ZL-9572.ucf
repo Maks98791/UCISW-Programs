@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+#  ZL-9572 CPLD board,  J.Sugier 2009
+#-----------------------------------------------------------
+
+# Clocks
+NET "Clk" LOC = "P7" | BUFG = CLK | PERIOD = 5ms HIGH 50%;
+
+#NET "Clk_XT" LOC = "P5" | BUFG = CLK | PERIOD = 500ns HIGH 50%;
+
+# Keys
+NET "CE" LOC = "P42";
+NET "x" LOC = "P40";
+#NET "K<2>" LOC = "P43";
+#NET "K<3>" LOC = "P38";
+#NET "Key<4>" LOC = "P37";
+#NET "Key<5>" LOC = "P36";  # shared with ROT_A
+#NET "Key<6>" LOC = "P24";  # shared with ROT_B
+NET "CLR" LOC = "P39";  # GSR
+
+# LEDS
+NET "Y"  LOC = "P35";
+#NET "LED<1>"  LOC = "P29";
+#NET "LED<2>"  LOC = "P33";
+#NET "LED<3>"  LOC = "P34";
+#NET "LED<4>"  LOC = "P28";
+#NET "LED<5>"  LOC = "P27";
+#NET "LED<6>"  LOC = "P26";
+#NET "LED<7>"  LOC = "P25";
+
+#NET "LED<8>"  LOC = "P13";	# shared with seg. B
+#NET "LED<9>"  LOC = "P11";	# shared with seg. F
+#NET "LED<10>" LOC = "P12";	# shared with seg. A
+#NET "LED<11>" LOC = "P18";	# shared with seg. DP
+#NET "LED<12>" LOC = "P22";	# shared with seg. C
+#NET "LED<13>" LOC = "P20";	# shared with seg. G
+#NET "Q(1)" LOC = "P19";	# shared with seg. D
+#NET "Q(0)" LOC = "P14";	# shared with seg. E
+
+# DISPL. 7-SEG
+
+# Rotary encoder
+#NET "CLK1" LOC = "P36";	# shared with Key<5>
+#NET "CLK2" LOC = "P24";	# shared with Key<6>
+
+# PS/2
+#NET "PS2_Clk"   LOC = "P3";
+#NET "PS2_Data"  LOC = "P2";
+
+# RS-232
+#NET "RS_RX" LOC = "P1";
+#NET "RS_TX" LOC = "P44";

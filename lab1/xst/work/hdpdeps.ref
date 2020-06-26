@@ -1,0 +1,8 @@
+V3 12
+FL E:/Code/Xilinx/lab1/sourcefile.vhf 2019/10/20.19:13:34 P.20131013
+EN work/sourcefile 1572099725 FL E:/Code/Xilinx/lab1/sourcefile.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sourcefile/BEHAVIORAL 1572099726 \
+      FL E:/Code/Xilinx/lab1/sourcefile.vhf EN work/sourcefile 1572099725 \
+      CP AND4B4 CP AND2 CP OR4 CP AND3B3 CP AND2B2 CP OR3 CP INV CP OR2

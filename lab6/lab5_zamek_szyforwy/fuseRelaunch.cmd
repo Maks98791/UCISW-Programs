@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/lab5/lab5_zamek_szyforwy/zamek_szyfrowy_testbench_isim_beh.exe" -prj "C:/lab5/lab5_zamek_szyforwy/zamek_szyfrowy_testbench_beh.prj" "work.zamek_szyfrowy_testbench" 

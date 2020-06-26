@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab5_zamek_szyforwy.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="zamak_szyfrowy_modul.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="zamak_szyfrowy_modul.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="zamak_szyfrowy_modul.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="zamak_szyfrowy_modul.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="zamak_szyfrowy_modul.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="zamak_szyfrowy_modul.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="zamak_szyfrowy_modul.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="zamak_szyfrowy_modul.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="zamak_szyfrowy_modul.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="zamak_szyfrowy_modul.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="zamak_szyfrowy_modul.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamak_szyfrowy_modul.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="zamak_szyfrowy_modul.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="zamak_szyfrowy_modul.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zamak_szyfrowy_modul.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="zamak_szyfrowy_modul.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="zamak_szyfrowy_modul.vm6"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="zamak_szyfrowy_modul.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="zamak_szyfrowy_modul_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="zamak_szyfrowy_modul_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamak_szyfrowy_modul_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamak_szyfrowy_modul_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="zamek_schemat.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="zamek_schemat.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="zamek_schemat.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="zamek_schemat.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="zamek_schemat.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="zamek_schemat.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="zamek_schemat.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="zamek_schemat.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="zamek_schemat.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="zamek_schemat.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="zamek_schemat.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="zamek_schemat.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="zamek_schemat.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_schemat.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="zamek_schemat.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="zamek_schemat.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="zamek_schemat.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="zamek_schemat.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="zamek_schemat.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="zamek_schemat.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="zamek_schemat.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="zamek_schemat.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="zamek_schemat.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="zamek_schemat_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="zamek_schemat_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_schemat_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="zamek_schemat_pad.csv"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_schemat_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="zamek_schemat_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_szyfrowy_testbench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="zamek_szyfrowy_testbench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="zamek_szyfrowy_testbench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zamek_szyfrowy_testbench_stx_beh.prj"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1578581040" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1578581040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578851002" xil_pn:in_ck="-8922702453525627581" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1578851002">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zamak_szyfrowy_modul.vhd"/>
+      <outfile xil_pn:name="zamek_szyfrowy_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1578851004" xil_pn:in_ck="5782019301311718632" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-5688639940613998983" xil_pn:start_ts="1578851002">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578851004" xil_pn:in_ck="-8922702453525627581" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1578851004">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zamak_szyfrowy_modul.vhd"/>
+      <outfile xil_pn:name="zamek_szyfrowy_testbench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1578851007" xil_pn:in_ck="-8922702453525627581" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="966403771815135664" xil_pn:start_ts="1578851004">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+      <outfile xil_pn:name="zamek_szyfrowy_testbench_beh.prj"/>
+      <outfile xil_pn:name="zamek_szyfrowy_testbench_isim_beh.exe"/>
+    </transform>
+    <transform xil_pn:end_ts="1578851007" xil_pn:in_ck="-8551490679525977534" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-66818768531479907" xil_pn:start_ts="1578851007">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="zamek_szyfrowy_testbench_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1578578100" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1578578100">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584951" xil_pn:in_ck="5782019301311718632" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1490546414709240167" xil_pn:start_ts="1578584949">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zamek_schemat.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584956" xil_pn:in_ck="1346056281026305422" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="1068145669970218400" xil_pn:start_ts="1578584951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+      <outfile xil_pn:name="zamak_szyfrowy_modul.ngr"/>
+      <outfile xil_pn:name="zamek_schemat.jhd"/>
+      <outfile xil_pn:name="zamek_schemat.lso"/>
+      <outfile xil_pn:name="zamek_schemat.ngc"/>
+      <outfile xil_pn:name="zamek_schemat.ngr"/>
+      <outfile xil_pn:name="zamek_schemat.prj"/>
+      <outfile xil_pn:name="zamek_schemat.stx"/>
+      <outfile xil_pn:name="zamek_schemat.syr"/>
+      <outfile xil_pn:name="zamek_schemat.xst"/>
+      <outfile xil_pn:name="zamek_schemat_vhdl.prj"/>
+      <outfile xil_pn:name="zamek_schemat_xst.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584956" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2720985493835816482" xil_pn:start_ts="1578584956">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584960" xil_pn:in_ck="-8784370709910896430" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-7789384908474775783" xil_pn:start_ts="1578584956">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="zamek_schemat.bld"/>
+      <outfile xil_pn:name="zamek_schemat.ngd"/>
+      <outfile xil_pn:name="zamek_schemat_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584970" xil_pn:in_ck="6990651306426606106" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-8522739650801701794" xil_pn:start_ts="1578584960">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="zamek_schemat.gyd"/>
+      <outfile xil_pn:name="zamek_schemat.mfd"/>
+      <outfile xil_pn:name="zamek_schemat.nga"/>
+      <outfile xil_pn:name="zamek_schemat.pad"/>
+      <outfile xil_pn:name="zamek_schemat.pnx"/>
+      <outfile xil_pn:name="zamek_schemat.rpt"/>
+      <outfile xil_pn:name="zamek_schemat.tspec"/>
+      <outfile xil_pn:name="zamek_schemat.vm6"/>
+      <outfile xil_pn:name="zamek_schemat.xml"/>
+      <outfile xil_pn:name="zamek_schemat_build.xml"/>
+      <outfile xil_pn:name="zamek_schemat_html"/>
+      <outfile xil_pn:name="zamek_schemat_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1578584972" xil_pn:in_ck="-5071624621614466214" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1578584970">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="zamek_schemat.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1578578163" xil_pn:in_ck="8408757852025357239" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1578578161">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

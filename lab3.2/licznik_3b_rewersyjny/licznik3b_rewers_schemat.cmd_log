@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.xst" -ofn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 licznik3b_rewers_schemat.ngc licznik3b_rewers_schemat.ngd  
+xst -intstyle ise -ifn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.xst" -ofn "E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 licznik3b_rewers_schemat.ngc licznik3b_rewers_schemat.ngd  

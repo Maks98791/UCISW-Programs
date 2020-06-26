@@ -1,0 +1,23 @@
+Command line:
+   tete_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51169
+
+Thu Jan 16 15:34:28 2020
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5160.68 Meg
+
+ Total Signals          : 16
+ Total Nets             : 19
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 6
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 380
+In process tete.vhd:symulacja 
+ 

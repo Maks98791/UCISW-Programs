@@ -1,0 +1,6 @@
+EN licznik3b_rewers_schemat NULL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.vhf sub00/vhpl02 1575664396
+EN licznik3b_schemat NULL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.vhf sub00/vhpl04 1575933781
+AR licznik3b_rewers behavioral E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers.vhd sub00/vhpl01 1576067093
+AR licznik3b_rewers_schemat behavioral E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.vhf sub00/vhpl03 1575664397
+AR licznik3b_schemat behavioral E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.vhf sub00/vhpl05 1575933782
+EN licznik3b_rewers NULL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers.vhd sub00/vhpl00 1576067092

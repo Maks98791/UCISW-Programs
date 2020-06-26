@@ -1,0 +1,8 @@
+[Inputs]
+DO_Rdy
+CLK_XT
+RST
+=DO[7:0]=
+[Outputs]
+y
+[BiDir]

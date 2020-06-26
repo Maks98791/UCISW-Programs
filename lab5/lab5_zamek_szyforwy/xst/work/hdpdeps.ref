@@ -1,0 +1,15 @@
+V3 9
+FL C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.vhd 2020/01/09.16:43:33 P.20131013
+EN work/zamak_szyfrowy_modul 1578584952 \
+      FL C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/zamak_szyfrowy_modul/Behavioral 1578584953 \
+      FL C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.vhd \
+      EN work/zamak_szyfrowy_modul 1578584952
+FL C:/lab5/lab5_zamek_szyforwy/zamek_schemat.vhf 2020/01/09.16:49:10 P.20131013
+EN work/zamek_schemat 1578584954 FL C:/lab5/lab5_zamek_szyforwy/zamek_schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/zamek_schemat/BEHAVIORAL 1578584955 \
+      FL C:/lab5/lab5_zamek_szyforwy/zamek_schemat.vhf EN work/zamek_schemat 1578584954 \
+      CP PS2_RX CP zamak_szyfrowy_modul

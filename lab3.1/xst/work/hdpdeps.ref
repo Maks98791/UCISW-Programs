@@ -1,0 +1,12 @@
+V3 9
+FL C:/lab3/module.vhd 2019/11/28.15:12:14 P.20131013
+EN work/module 1574952959 FL C:/lab3/module.vhd PB ieee/std_logic_1164 1381692176
+AR work/module/Behavioral 1574952960 \
+      FL C:/lab3/module.vhd EN work/module 1574952959
+FL C:/lab3/schematic_module.vhf 2019/11/28.15:55:56 P.20131013
+EN work/schematic_module 1574952961 FL C:/lab3/schematic_module.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/schematic_module/BEHAVIORAL 1574952962 \
+      FL C:/lab3/schematic_module.vhf EN work/schematic_module 1574952961 \
+      CP module CP Display4x7S

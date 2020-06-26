@@ -1,0 +1,205 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL44PC | XC9572XL-10-PC44
+
+DEVICE | 9572XL | 9572XL44PC | 
+
+NETWORK | detektor6b_moora | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | CLK_LF_IBUF | detektor6b_moora_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | CLK_LF | 437 | PI | 37 | 0 | detektor6b_moora_COPY_0_COPY_0 | PERIOD_CLK_LF;PERIOD_CLK_LF | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 3 | 5 | II_FCLK
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+
+INPUT_INSTANCE | 0 | 0 | NULL | RST_IBUF | detektor6b_moora_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | RST | 438 | PI | 0 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | x_IBUF | detektor6b_moora_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | x | 439 | PI | 0 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | state_FSM_FFd1 | detektor6b_moora_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 434 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd1.SI | state_FSM_FFd1 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 434 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd1.D1 | 441 | ? | 39 | 4096 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd1.D2 | 442 | ? | 39 | 4096 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_FALSE | RST_IBUF | IV_TRUE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2 | IV_FALSE | x_IBUF
+SPPTERM | 4 | IV_FALSE | RST_IBUF | IV_TRUE | state_FSM_FFd1 | IV_FALSE | x_IBUF | IV_FALSE | state_FSM_FFd3
+SPPTERM | 5 | IV_FALSE | RST_IBUF | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2 | IV_TRUE | x_IBUF | IV_FALSE | state_FSM_FFd3
+
+SRFF_INSTANCE | state_FSM_FFd1.REG | state_FSM_FFd1 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd1.D | 440 | ? | 39 | 0 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd1.Q | 443 | ? | 41 | 0 | state_FSM_FFd1 | NULL | NULL | state_FSM_FFd1.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_CLK_LF
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | state_FSM_FFd2 | detektor6b_moora_COPY_0_COPY_0 | 2155873280 | 6 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 434 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd2.SI | state_FSM_FFd2 | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd3 | 434 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd2.D1 | 445 | ? | 41 | 4096 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd2.D2 | 446 | ? | 41 | 4096 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_FALSE | RST_IBUF | IV_TRUE | state_FSM_FFd1 | IV_FALSE | x_IBUF | IV_FALSE | state_FSM_FFd3
+SPPTERM | 4 | IV_FALSE | RST_IBUF | IV_FALSE | state_FSM_FFd1 | IV_TRUE | state_FSM_FFd2 | IV_TRUE | x_IBUF
+SPPTERM | 4 | IV_FALSE | RST_IBUF | IV_FALSE | state_FSM_FFd1 | IV_FALSE | x_IBUF | IV_TRUE | state_FSM_FFd3
+
+SRFF_INSTANCE | state_FSM_FFd2.REG | state_FSM_FFd2 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd2.D | 444 | ? | 41 | 0 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd2.Q | 447 | ? | 41 | 0 | state_FSM_FFd2 | NULL | NULL | state_FSM_FFd2.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_CLK_LF
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | state_FSM_FFd3 | detektor6b_moora_COPY_0_COPY_0 | 2155873280 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | state_FSM_FFd3 | 434 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd3.Q | state_FSM_FFd3 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | state_FSM_FFd3.SI | state_FSM_FFd3 | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | RST_IBUF | 430 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | RST_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_IBUF | 433 | ? | 42 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | x_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | state_FSM_FFd3.D1 | 449 | ? | 42 | 4096 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | state_FSM_FFd3.D2 | 450 | ? | 42 | 4096 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_FALSE | RST_IBUF | IV_FALSE | x_IBUF
+
+SRFF_INSTANCE | state_FSM_FFd3.REG | state_FSM_FFd3 | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | state_FSM_FFd3.D | 448 | ? | 42 | 0 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+NODE | CLK_LF_IBUF/FCLK | 429 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | CLK_LF_IBUF | 3 | 5 | II_FCLK
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | state_FSM_FFd3.Q | 451 | ? | 41 | 0 | state_FSM_FFd3 | NULL | NULL | state_FSM_FFd3.REG | 0 | 8 | SRFF_Q
+TNAME | PERIOD_CLK_LF
+
+MACROCELL_INSTANCE | OptxMapped | y_OBUF | detektor6b_moora_COPY_0_COPY_0 | 2155872256 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | y_OBUF | 435 | ? | 0 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | y_OBUF.Q | y_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | y_OBUF.SI | y_OBUF | 0 | 2 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd1 | 431 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd1.Q | state_FSM_FFd1 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | state_FSM_FFd2 | 432 | ? | 41 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | state_FSM_FFd2.Q | state_FSM_FFd2 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | y_OBUF.D1 | 453 | ? | 0 | 4096 | y_OBUF | NULL | NULL | y_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | y_OBUF.D2 | 454 | ? | 0 | 4096 | y_OBUF | NULL | NULL | y_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 2 | IV_TRUE | state_FSM_FFd1 | IV_FALSE | state_FSM_FFd2
+
+SRFF_INSTANCE | y_OBUF.REG | y_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | y_OBUF.D | 452 | ? | 0 | 0 | y_OBUF | NULL | NULL | y_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | y_OBUF.Q | 455 | ? | 0 | 0 | y_OBUF | NULL | NULL | y_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | y | detektor6b_moora_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | y_OBUF | 435 | ? | 0 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | y_OBUF.Q | y_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | y | 436 | PO | 0 | 0 | detektor6b_moora_COPY_0_COPY_0 | NULL | NULL | y | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | detektor6b_moora_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 14 | NULL | 0 | CLK_LF_IBUF | 0 | NULL | 0 | 7 | 57344
+
+FB_INSTANCE | FOOBAR2_ | detektor6b_moora_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | y_OBUF | 1 | NULL | 0 | y | 1 | 35 | 49152
+FBPIN | 9 | NULL | 0 | RST_IBUF | 1 | NULL | 0 | 39 | 51200
+FBPIN | 11 | NULL | 0 | x_IBUF | 1 | NULL | 0 | 40 | 53248
+FBPIN | 16 | state_FSM_FFd3 | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | state_FSM_FFd2 | 1 | NULL | 0 | NULL | 0 | 44 | 49152
+FBPIN | 18 | state_FSM_FFd1 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR3_ | detektor6b_moora_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | detektor6b_moora_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | detektor6b_moora_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 2 | x | 40 | 16 | state_FSM_FFd2 | NULL | 44 | state_FSM_FFd3 | NULL | 49 | state_FSM_FFd1 | NULL | 52 | RST | 39
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | -1 | 92 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 34 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 33 | -1 | -1 | -1 | -1 | 35 | -1 | -1 | 86 | -1
+
+
+GLOBAL_FCLK | CLK_LF | 2 | 2
+
+TIME_TSPEC | TS1000 | PERIOD:PERIOD_CLK_LF:5000000.000nS:HIGH:50.000000000:% | PERIOD_CLK_LF | 10003 | 50000000 | 500 | NULL

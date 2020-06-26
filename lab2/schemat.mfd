@@ -1,0 +1,49 @@
+MDF Database:  version 1.0
+MDF_INFO | schemat | XC9572XL-10-PC44
+MACROCELL | 1 | 1 | Y_0_OBUF
+ATTRIBUTES | 4629314 | 0
+OUTPUTMC | 2 | 3 | 14 | 3 | 13
+INPUTS | 3 | Y<2>  | Y<1>  | CE
+INPUTMC | 2 | 3 | 14 | 3 | 13
+INPUTP | 1 | 7
+EQ | 4 | 
+   !Y<0>.T = Y<2> & !Y<1>;
+   Y<0>.CLK = CLK;	// GCK
+   Y<0>.AR = CLR;	// GSR
+   Y<0>.CE = CE;
+GLOBALS | 2 | 2 | CLK | 4 | CLR
+
+MACROCELL | 3 | 14 | Y_2_OBUF
+ATTRIBUTES | 8823618 | 0
+OUTPUTMC | 3 | 1 | 1 | 3 | 14 | 3 | 13
+INPUTS | 4 | Y<2>  | Y<1>  | Y<0>  | CE
+INPUTMC | 3 | 3 | 14 | 3 | 13 | 1 | 1
+INPUTP | 1 | 7
+EQ | 5 | 
+   !Y<2>.D = !Y<2> & Y<1>
+	$ Y<0>;
+   Y<2>.CLK = CLK;	// GCK
+   Y<2>.AR = CLR;	// GSR
+   Y<2>.CE = CE;
+GLOBALS | 2 | 2 | CLK | 4 | CLR
+
+MACROCELL | 3 | 13 | Y_1_OBUF
+ATTRIBUTES | 8823618 | 0
+OUTPUTMC | 3 | 1 | 1 | 3 | 14 | 3 | 13
+INPUTS | 4 | Y<2>  | Y<1>  | Y<0>  | CE
+INPUTMC | 3 | 3 | 14 | 3 | 13 | 1 | 1
+INPUTP | 1 | 7
+EQ | 5 | 
+   !Y<1>.D = !Y<2> & !Y<1>
+	$ Y<0>;
+   Y<1>.CLK = CLK;	// GCK
+   Y<1>.AR = CLR;	// GSR
+   Y<1>.CE = CE;
+GLOBALS | 2 | 2 | CLK | 4 | CLR
+
+PIN | CE | 64 | 0 | N/A | 7 | 3 | 1 | 1 | 3 | 14 | 3 | 13
+PIN | CLK | 16384 | 0 | N/A | 24 | 3 | 1 | 1 | 3 | 14 | 3 | 13
+PIN | CLR | 65536 | 0 | N/A | 92 | 3 | 1 | 1 | 3 | 14 | 3 | 13
+PIN | Y<0> | 536871040 | 0 | N/A | 87
+PIN | Y<2> | 536871040 | 0 | N/A | 82
+PIN | Y<1> | 536871040 | 0 | N/A | 72

@@ -1,0 +1,5 @@
+MODULE zamek_schemat
+	SUBMODULE PS2_RX
+		INSTANCE XLXI_1
+	SUBMODULE zamak_szyfrowy_modul
+		INSTANCE XLXI_3

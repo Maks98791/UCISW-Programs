@@ -1,0 +1,9 @@
+V3 12
+FL C:/xd/lab2/schemat.vhf 2019/11/14.16:20:43 P.20131013
+FL E:/Code/Xilinx/lab2/schemat.vhf 2019/11/14.22:43:30 P.20131013
+EN work/schemat 1573767997 FL E:/Code/Xilinx/lab2/schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/schemat/BEHAVIORAL 1573767998 \
+      FL E:/Code/Xilinx/lab2/schemat.vhf EN work/schemat 1573767997 CP FDCE \
+      CP AND3B3 CP AND3B1 CP AND2B1 CP AND3B2 CP OR3 CP AND2B2

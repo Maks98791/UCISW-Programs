@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/xst"
+elaborate
+-ifn zamak_szyfrowy_modul.prj
+-ifmt mixed

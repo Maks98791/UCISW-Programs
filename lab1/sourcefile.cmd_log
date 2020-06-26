@@ -1,0 +1,15 @@
+sch2sym -intstyle ise -family xc9500xl -refsym sourcefile E:/Code/Xilinx/lab1/sourcefile.sch E:/Code/Xilinx/lab1/sourcefile.sym 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab1/sourcefile.xst" -ofn "E:/Code/Xilinx/lab1/sourcefile.syr" 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab1/sourcefile.xst" -ofn "E:/Code/Xilinx/lab1/sourcefile.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sourcefile.ngc sourcefile.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sourcefile.ngd 
+XSLTProcess sourcefile_build.xml 
+tsim -intstyle ise sourcefile sourcefile.nga 
+taengine -intstyle ise -f sourcefile -w --format html1 -l sourcefile_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n sourcefile -i sourcefile 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab1/sourcefile.xst" -ofn "E:/Code/Xilinx/lab1/sourcefile.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 sourcefile.ngc sourcefile.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper sourcefile.ngd 
+XSLTProcess sourcefile_build.xml 
+tsim -intstyle ise sourcefile sourcefile.nga 
+hprep6 -s IEEE1149 -n sourcefile -i sourcefile 

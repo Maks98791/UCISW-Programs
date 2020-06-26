@@ -1,0 +1,29 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Code/Xilinx/lab1/sourcefile_sourcefile_sch_tb_isim_beh.exe -prj E:/Code/Xilinx/lab1/sourcefile_sourcefile_sch_tb_beh.prj work.sourcefile_sourcefile_sch_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Code/Xilinx/lab1/sourcefile.vhf" into library work
+Parsing VHDL file "E:/Code/Xilinx/lab1/testBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling architecture and4b4_v of entity AND4B4 [and4b4_default]
+Compiling architecture and2_v of entity AND2 [and2_default]
+Compiling architecture or4_v of entity OR4 [or4_default]
+Compiling architecture and3b3_v of entity AND3B3 [and3b3_default]
+Compiling architecture and2b2_v of entity AND2B2 [and2b2_default]
+Compiling architecture or3_v of entity OR3 [or3_default]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture or2_v of entity OR2 [or2_default]
+Compiling architecture behavioral of entity sourcefile [sourcefile_default]
+Compiling architecture behavioral of entity sourcefile_sourcefile_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 23 VHDL Units
+Built simulation executable E:/Code/Xilinx/lab1/sourcefile_sourcefile_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48936 KB
+Fuse CPU Usage: 468 ms

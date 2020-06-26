@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/yyy/detektor_zad2/zad2_testbench_isim_beh.exe" -prj "C:/yyy/detektor_zad2/zad2_testbench_beh.prj" "work.zad2_testbench" 

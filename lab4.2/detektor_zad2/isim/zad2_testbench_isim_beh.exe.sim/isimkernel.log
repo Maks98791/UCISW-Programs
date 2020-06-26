@@ -1,0 +1,29 @@
+Command line:
+   zad2_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58334
+
+Sun Dec 15 02:12:18 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5159.64 Meg
+
+ Total Signals          : 56
+ Total Nets             : 57
+ Total Signal Drivers   : 10
+ Total Blocks           : 8
+ Total Primitive Blocks : 6
+ Total Processes        : 10
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 544
+Total Line Count : 28
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5474.21 Meg
+
+Sun Dec 15 02:12:59 2019
+

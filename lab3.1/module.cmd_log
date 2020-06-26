@@ -1,0 +1,2 @@
+vhdtdtfi -lib work module.vhd -prj lab3 -o module.spl -module module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl module.spl C:/lab3/module.sym 

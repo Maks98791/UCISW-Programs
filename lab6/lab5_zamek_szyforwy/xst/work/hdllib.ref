@@ -1,0 +1,4 @@
+AR zamek_schemat behavioral C:/lab5/lab5_zamek_szyforwy/zamek_schemat.vhf sub00/vhpl03 1578584955
+AR zamak_szyfrowy_modul behavioral C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.vhd sub00/vhpl01 1578584953
+EN zamak_szyfrowy_modul NULL C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.vhd sub00/vhpl00 1578584952
+EN zamek_schemat NULL C:/lab5/lab5_zamek_szyforwy/zamek_schemat.vhf sub00/vhpl02 1578584954

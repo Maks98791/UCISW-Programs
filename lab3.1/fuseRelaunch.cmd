@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Code/Xilinx/UCISW/lab3.1/module_Test_isim_beh.exe" -prj "E:/Code/Xilinx/UCISW/lab3.1/module_Test_beh.prj" "work.module_Test" 

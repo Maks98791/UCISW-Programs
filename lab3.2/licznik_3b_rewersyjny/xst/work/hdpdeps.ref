@@ -1,0 +1,25 @@
+V3 12
+FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers.vhd 2019/12/11.11:44:48 P.20131013
+EN work/licznik3b_rewers 1576067092 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/licznik3b_rewers/Behavioral 1576067093 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers.vhd \
+      EN work/licznik3b_rewers 1576067092 CP FDCE
+FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.vhf 2019/12/06.21:33:14 P.20131013
+EN work/licznik3b_rewers_schemat 1575664396 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/licznik3b_rewers_schemat/BEHAVIORAL 1575664397 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_rewers_schemat.vhf \
+      EN work/licznik3b_rewers_schemat 1575664396 CP FDCE
+FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.vhf 2019/12/10.00:22:56 P.20131013
+EN work/licznik3b_schemat 1575933781 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/licznik3b_schemat/BEHAVIORAL 1575933782 \
+      FL E:/Code/Xilinx/UCISW/lab3.2/licznik_3b_rewersyjny/licznik3b_schemat.vhf \
+      EN work/licznik3b_schemat 1575933781 CP licznik3b_rewers

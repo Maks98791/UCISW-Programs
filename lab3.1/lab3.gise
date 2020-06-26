@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="module.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="module.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="module_Test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="module_Test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="module_Test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="module_Test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="module_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="schematic_module.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="schematic_module.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="schematic_module.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="schematic_module.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="schematic_module.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="schematic_module.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="schematic_module.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="schematic_module.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="schematic_module.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="schematic_module.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="schematic_module.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="schematic_module.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="schematic_module.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="schematic_module.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="schematic_module.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="schematic_module.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="schematic_module.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="schematic_module.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="schematic_module.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="schematic_module.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="schematic_module.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="schematic_module.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="schematic_module_build.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="schematic_module_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="schematic_module_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="schematic_module_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="schematic_module_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="schematic_module_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="schematic_module_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1574951186" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1574951186">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1575934066" xil_pn:in_ck="-5045429800938577333" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1575934066">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="module.vhd"/>
+      <outfile xil_pn:name="module_Test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1575934071" xil_pn:in_ck="-80669654757656798" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6095503328007518780" xil_pn:start_ts="1575934069">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1575934071" xil_pn:in_ck="-5045429800938577333" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1575934071">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="module.vhd"/>
+      <outfile xil_pn:name="module_Test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1575934075" xil_pn:in_ck="-5045429800938577333" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4054728334632033203" xil_pn:start_ts="1575934071">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="module_Test_beh.prj"/>
+      <outfile xil_pn:name="module_Test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1575934075" xil_pn:in_ck="2469779612219394729" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="5944440523030289018" xil_pn:start_ts="1575934075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="module_Test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952098" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1574952098">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952958" xil_pn:in_ck="-80669654757656798" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-317733074230172148" xil_pn:start_ts="1574952956">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="schematic_module.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952964" xil_pn:in_ck="-7032009091670487522" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="-792325288833937421" xil_pn:start_ts="1574952958">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="schematic_module.jhd"/>
+      <outfile xil_pn:name="schematic_module.lso"/>
+      <outfile xil_pn:name="schematic_module.ngc"/>
+      <outfile xil_pn:name="schematic_module.ngr"/>
+      <outfile xil_pn:name="schematic_module.prj"/>
+      <outfile xil_pn:name="schematic_module.stx"/>
+      <outfile xil_pn:name="schematic_module.syr"/>
+      <outfile xil_pn:name="schematic_module.xst"/>
+      <outfile xil_pn:name="schematic_module_vhdl.prj"/>
+      <outfile xil_pn:name="schematic_module_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952964" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="968481407733467096" xil_pn:start_ts="1574952964">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952968" xil_pn:in_ck="-8134707307076863150" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-7789384908474775783" xil_pn:start_ts="1574952964">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="schematic_module.bld"/>
+      <outfile xil_pn:name="schematic_module.ngd"/>
+      <outfile xil_pn:name="schematic_module_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952981" xil_pn:in_ck="-80669654757662115" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="6934002891108066859" xil_pn:start_ts="1574952968">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="schematic_module.gyd"/>
+      <outfile xil_pn:name="schematic_module.mfd"/>
+      <outfile xil_pn:name="schematic_module.nga"/>
+      <outfile xil_pn:name="schematic_module.pad"/>
+      <outfile xil_pn:name="schematic_module.pnx"/>
+      <outfile xil_pn:name="schematic_module.rpt"/>
+      <outfile xil_pn:name="schematic_module.tspec"/>
+      <outfile xil_pn:name="schematic_module.vm6"/>
+      <outfile xil_pn:name="schematic_module.xml"/>
+      <outfile xil_pn:name="schematic_module_build.xml"/>
+      <outfile xil_pn:name="schematic_module_html"/>
+      <outfile xil_pn:name="schematic_module_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952983" xil_pn:in_ck="-80669654757653251" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1574952981">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="schematic_module.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1574952981" xil_pn:in_ck="-80669654757653251" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1574952980">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,31 @@
+Command line:
+   schemat_isim_fit.exe
+     -simmode  gui
+     -sdfmax  /schemat/=netgen/fit/schemat_timesim.sdf
+     -sdfroot  /
+     -simrunnum  0
+     -socket  52838
+
+Thu Nov 14 22:44:38 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5164.67 Meg
+
+ Total Signals          : 413
+ Total Nets             : 239
+ Total Signal Drivers   : 212
+ Total Blocks           : 159
+ Total Primitive Blocks : 85
+ Total Processes        : 212
+ Total Traceable Variables  : 632
+ Total Scalar Nets and Variables : 5934
+Total Line Count : 992
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5007.38 Meg
+
+Thu Nov 14 22:45:41 2019
+

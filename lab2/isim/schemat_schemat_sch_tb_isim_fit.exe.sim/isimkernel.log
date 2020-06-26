@@ -1,0 +1,31 @@
+Command line:
+   schemat_schemat_sch_tb_isim_fit.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/fit/schemat_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  0
+     -socket  52849
+
+Thu Nov 14 22:47:01 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5164.1 Meg
+
+ Total Signals          : 442
+ Total Nets             : 264
+ Total Signal Drivers   : 213
+ Total Blocks           : 162
+ Total Primitive Blocks : 87
+ Total Processes        : 214
+ Total Traceable Variables  : 637
+ Total Scalar Nets and Variables : 6082
+Total Line Count : 994
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5006.82 Meg
+
+Thu Nov 14 22:50:18 2019
+

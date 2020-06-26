@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Code/Xilinx/lab1/sourcefile_sourcefile_sch_tb_isim_beh.exe" -prj "E:/Code/Xilinx/lab1/sourcefile_sourcefile_sch_tb_beh.prj" "work.sourcefile_sourcefile_sch_tb" 

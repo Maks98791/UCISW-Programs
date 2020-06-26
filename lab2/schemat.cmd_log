@@ -1,0 +1,57 @@
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+hprep6 -s IEEE1149 -n schemat -i schemat 
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+hprep6 -s IEEE1149 -n schemat -i schemat 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 
+xst -intstyle ise -ifn "C:/xd/lab2/schemat.xst" -ofn "C:/xd/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab2/schemat.xst" -ofn "E:/Code/Xilinx/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+hprep6 -s IEEE1149 -n schemat -i schemat 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab2/schemat.xst" -ofn "E:/Code/Xilinx/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+hprep6 -s IEEE1149 -n schemat -i schemat 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab2/schemat.xst" -ofn "E:/Code/Xilinx/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 
+xst -intstyle ise -ifn "E:/Code/Xilinx/lab2/schemat.xst" -ofn "E:/Code/Xilinx/lab2/schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 schemat.ngc schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper schemat.ngd 
+XSLTProcess schemat_build.xml 
+tsim -intstyle ise schemat schemat.nga 
+netgen -intstyle ise -rpw 100 -ar Structure -tm schemat -w -dir netgen/fit -ofmt vhdl -sim schemat.nga schemat_timesim.vhd 

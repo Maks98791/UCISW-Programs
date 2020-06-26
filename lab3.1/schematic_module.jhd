@@ -1,0 +1,5 @@
+MODULE schematic_module
+	SUBMODULE module
+		INSTANCE XLXI_1
+	SUBMODULE Display4x7S
+		INSTANCE XLXI_2

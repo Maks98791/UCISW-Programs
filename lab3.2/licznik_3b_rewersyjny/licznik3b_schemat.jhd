@@ -1,0 +1,3 @@
+MODULE licznik3b_schemat
+	SUBMODULE licznik3b_rewers
+		INSTANCE XLXI_1

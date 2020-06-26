@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper detektor_zadanie2.ngd 
+XSLTProcess detektor_zadanie2_build.xml 
+tsim -intstyle ise detektor_zadanie2 detektor_zadanie2.nga 
+taengine -intstyle ise -f detektor_zadanie2 -w --format html1 -l detektor_zadanie2_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n detektor_zadanie2 -i detektor_zadanie2 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper detektor_zadanie2.ngd 
+XSLTProcess detektor_zadanie2_build.xml 
+tsim -intstyle ise detektor_zadanie2 detektor_zadanie2.nga 
+hprep6 -s IEEE1149 -n detektor_zadanie2 -i detektor_zadanie2 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper detektor_zadanie2.ngd 
+XSLTProcess detektor_zadanie2_build.xml 
+tsim -intstyle ise detektor_zadanie2 detektor_zadanie2.nga 
+hprep6 -s IEEE1149 -n detektor_zadanie2 -i detektor_zadanie2 
+xst -intstyle ise -ifn "C:/yyy/detektor_zad2/detektor_zadanie2.xst" -ofn "C:/yyy/detektor_zad2/detektor_zadanie2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 detektor_zadanie2.ngc detektor_zadanie2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper detektor_zadanie2.ngd 
+XSLTProcess detektor_zadanie2_build.xml 
+tsim -intstyle ise detektor_zadanie2 detektor_zadanie2.nga 
+hprep6 -s IEEE1149 -n detektor_zadanie2 -i detektor_zadanie2 

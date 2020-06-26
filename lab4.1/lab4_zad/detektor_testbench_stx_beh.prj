@@ -1,0 +1,2 @@
+vhdl isim_temp "detektor6b_moora.vhd"
+vhdl isim_temp "detektor_testbench.vhd"

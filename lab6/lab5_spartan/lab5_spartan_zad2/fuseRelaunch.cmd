@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/tete_isim_beh.exe" -prj "C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/tete_beh.prj" "work.tete" 

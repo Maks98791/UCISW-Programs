@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+taengine -intstyle ise -f zamak_szyfrowy_modul -w --format html1 -l zamak_szyfrowy_modul_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper zamak_szyfrowy_modul.ngd 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+tsim -intstyle ise zamak_szyfrowy_modul zamak_szyfrowy_modul.nga 
+hprep6 -s IEEE1149 -n zamak_szyfrowy_modul -i zamak_szyfrowy_modul 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+xst -intstyle ise -ifn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.xst" -ofn "C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-5 zamak_szyfrowy_modul.ngc zamak_szyfrowy_modul.ngd  
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_zamek_szyforwy -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xc9500xl zamak_szyfrowy_modul.spl C:/lab5/lab5_zamek_szyforwy/zamak_szyfrowy_modul.sym 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+XSLTProcess zamak_szyfrowy_modul_build.xml 
+XSLTProcess zamak_szyfrowy_modul_build.xml 

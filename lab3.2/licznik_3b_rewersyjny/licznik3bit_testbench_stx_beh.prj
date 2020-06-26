@@ -1,0 +1,2 @@
+vhdl isim_temp "licznik3b_rewers.vhd"
+vhdl isim_temp "licznik3bit_testbench.vhd"

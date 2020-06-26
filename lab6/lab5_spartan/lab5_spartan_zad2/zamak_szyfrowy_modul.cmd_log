@@ -1,0 +1,11 @@
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_spartan -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e zamak_szyfrowy_modul.spl C:/Users/lab/lab6/lab5_spartan/lab5_spartan/zamak_szyfrowy_modul.sym 
+vhdtdtfi -prj lab5_spartan -o C:/Users/lab/lab6/lab5_spartan/lab5_spartan/zamak_szyfrowy_modul.vhi -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work zamak_szyfrowy_modul.vhd 
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_spartan -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e zamak_szyfrowy_modul.spl C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/zamak_szyfrowy_modul.sym 
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_spartan -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e zamak_szyfrowy_modul.spl C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/zamak_szyfrowy_modul.sym 
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_spartan -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e zamak_szyfrowy_modul.spl C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/zamak_szyfrowy_modul.sym 
+vhdtdtfi -lib work zamak_szyfrowy_modul.vhd -prj lab5_spartan -o zamak_szyfrowy_modul.spl -module zamak_szyfrowy_modul -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e zamak_szyfrowy_modul.spl C:/Users/lab/lab6/lab5_spartan/lab5_spartan_zad2/zamak_szyfrowy_modul.sym 

@@ -1,0 +1,196 @@
+MDF Database:  version 1.0
+MDF_INFO | zamak_szyfrowy_modul | XC9572XL-5-PC44
+MACROCELL | 1 | 17 | state_FSM_FFd3
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+INPUTS | 15 | D0_Rdy  | RST  | state_FSM_FFd3  | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | X<2>  | X<0>  | state_FSM_FFd1  | state_FSM_FFd4  | state_FSM_FFd2  | state_FSM_FFd2.EXP
+INPUTMC | 5 | 1 | 17 | 1 | 14 | 1 | 0 | 1 | 16 | 1 | 16
+INPUTP | 10 | 83 | 89 | 62 | 3 | 13 | 12 | 59 | 65 | 9 | 92
+IMPORTS | 1 | 1 | 16
+EQ | 21 | 
+   state_FSM_FFd3.D = !D0_Rdy & !RST & state_FSM_FFd3
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	!X<2> & !X<0> & !RST & state_FSM_FFd3 & state_FSM_FFd2 & 
+	!state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	!X<2> & !X<0> & !RST & state_FSM_FFd3 & state_FSM_FFd1 & 
+	!state_FSM_FFd4
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	X<2> & X<0> & !RST & state_FSM_FFd3 & !state_FSM_FFd1 & 
+	!state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & X<6> & !X<5> & !X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	state_FSM_FFd2 & state_FSM_FFd4
+;Imported pterms FB2_17
+	# !X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	state_FSM_FFd1 & state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2 & state_FSM_FFd4;
+   state_FSM_FFd3.CLK = CLK_XT;	// GCK
+GLOBALS | 1 | 2 | CLK_XT
+
+MACROCELL | 1 | 14 | state_FSM_FFd1
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 7 | 1 | 17 | 1 | 14 | 1 | 15 | 1 | 0 | 1 | 1 | 1 | 2 | 1 | 16
+INPUTS | 14 | D0_Rdy  | RST  | state_FSM_FFd1  | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | X<2>  | X<0>  | state_FSM_FFd4  | state_FSM_FFd3  | state_FSM_FFd2
+INPUTMC | 4 | 1 | 14 | 1 | 0 | 1 | 17 | 1 | 16
+INPUTP | 10 | 83 | 89 | 62 | 3 | 13 | 12 | 59 | 65 | 9 | 92
+EQ | 13 | 
+   state_FSM_FFd1.D = !D0_Rdy & !RST & state_FSM_FFd1
+	# !X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	!X<2> & !X<0> & !RST & state_FSM_FFd1 & state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	!X<2> & !X<0> & !RST & state_FSM_FFd3 & state_FSM_FFd1 & 
+	!state_FSM_FFd4
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	!X<2> & !X<0> & !RST & !state_FSM_FFd3 & state_FSM_FFd1 & 
+	!state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd2 & state_FSM_FFd4;
+   state_FSM_FFd1.CLK = CLK_XT;	// GCK
+GLOBALS | 1 | 2 | CLK_XT
+
+MACROCELL | 1 | 16 | state_FSM_FFd2
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 7 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 2 | 1 | 15
+INPUTS | 15 | D0_Rdy  | RST  | state_FSM_FFd2  | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | X<2>  | X<0>  | state_FSM_FFd3  | state_FSM_FFd4  | state_FSM_FFd1  | EXP7_.EXP
+INPUTMC | 5 | 1 | 16 | 1 | 17 | 1 | 0 | 1 | 14 | 1 | 15
+INPUTP | 10 | 83 | 89 | 62 | 3 | 13 | 12 | 59 | 65 | 9 | 92
+EXPORTS | 1 | 1 | 17
+IMPORTS | 1 | 1 | 15
+EQ | 24 | 
+   state_FSM_FFd2.D = !D0_Rdy & !RST & state_FSM_FFd2
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	!X<2> & !X<0> & !RST & state_FSM_FFd3 & state_FSM_FFd2 & 
+	!state_FSM_FFd4
+	# !X<3> & X<6> & !X<5> & !X<4> & !X<7> & X<1> & 
+	!X<2> & !X<0> & !RST & !state_FSM_FFd3 & state_FSM_FFd2 & 
+	state_FSM_FFd4
+;Imported pterms FB2_16
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	!X<2> & !X<0> & !RST & !state_FSM_FFd3 & !state_FSM_FFd1 & 
+	state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd1 & state_FSM_FFd4
+	# !X<3> & X<6> & !X<5> & !X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2 & state_FSM_FFd4;
+   state_FSM_FFd2.CLK = CLK_XT;	// GCK
+    state_FSM_FFd2.EXP  =  !X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	state_FSM_FFd1 & state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2 & state_FSM_FFd4
+GLOBALS | 1 | 2 | CLK_XT
+
+MACROCELL | 1 | 0 | state_FSM_FFd4
+ATTRIBUTES | 8553216 | 0
+OUTPUTMC | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+INPUTS | 15 | D0_Rdy  | RST  | state_FSM_FFd4  | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | X<2>  | X<0>  | state_FSM_FFd3  | state_FSM_FFd1  | state_FSM_FFd2  | y_OBUF.EXP
+INPUTMC | 5 | 1 | 0 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 1
+INPUTP | 10 | 83 | 89 | 62 | 3 | 13 | 12 | 59 | 65 | 9 | 92
+IMPORTS | 1 | 1 | 1
+EQ | 30 | 
+   state_FSM_FFd4.D = !D0_Rdy & !RST & state_FSM_FFd4
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & state_FSM_FFd1 & 
+	state_FSM_FFd2
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	X<2> & X<0> & !RST & !state_FSM_FFd3 & state_FSM_FFd1 & 
+	state_FSM_FFd4
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd1 & !state_FSM_FFd4
+;Imported pterms FB2_2
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !state_FSM_FFd4
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & !state_FSM_FFd1 & 
+	!state_FSM_FFd2 & !state_FSM_FFd4
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	state_FSM_FFd1 & !state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	!state_FSM_FFd1 & state_FSM_FFd2 & !state_FSM_FFd4;
+   state_FSM_FFd4.CLK = CLK_XT;	// GCK
+GLOBALS | 1 | 2 | CLK_XT
+
+MACROCELL | 1 | 1 | y_OBUF
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 1 | 0
+INPUTS | 15 | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | D0_Rdy  | X<2>  | X<0>  | RST  | state_FSM_FFd3  | state_FSM_FFd1  | state_FSM_FFd2  | state_FSM_FFd4  | EXP6_.EXP
+INPUTMC | 5 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 2
+INPUTP | 10 | 62 | 3 | 13 | 12 | 59 | 65 | 83 | 9 | 92 | 89
+EXPORTS | 1 | 1 | 0
+IMPORTS | 1 | 1 | 2
+EQ | 17 | 
+   y = ;Imported pterms FB2_3
+	  state_FSM_FFd1 & state_FSM_FFd2;
+    y_OBUF.EXP  =  X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd2 & !state_FSM_FFd4
+	# X<3> & X<6> & !X<5> & !X<4> & !X<7> & !X<1> & 
+	D0_Rdy & X<2> & X<0> & !RST & !state_FSM_FFd1 & 
+	!state_FSM_FFd2 & !state_FSM_FFd4
+	# X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	state_FSM_FFd1 & !state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & !state_FSM_FFd3 & 
+	!state_FSM_FFd1 & state_FSM_FFd2 & !state_FSM_FFd4
+
+MACROCELL | 1 | 2 | EXP6_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 1
+INPUTS | 2 | state_FSM_FFd1  | state_FSM_FFd2
+INPUTMC | 2 | 1 | 14 | 1 | 16
+EXPORTS | 1 | 1 | 1
+EQ | 1 | 
+       EXP6_.EXP  =  state_FSM_FFd1 & state_FSM_FFd2
+
+MACROCELL | 1 | 15 | EXP7_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 1 | 16
+INPUTS | 14 | X<3>  | X<6>  | X<5>  | X<4>  | X<7>  | X<1>  | X<2>  | X<0>  | RST  | state_FSM_FFd3  | state_FSM_FFd1  | state_FSM_FFd2  | state_FSM_FFd4  | D0_Rdy
+INPUTMC | 4 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0
+INPUTP | 10 | 62 | 3 | 13 | 12 | 59 | 65 | 9 | 92 | 89 | 83
+EXPORTS | 1 | 1 | 16
+EQ | 9 | 
+       EXP7_.EXP  =  !X<3> & X<6> & X<5> & X<4> & X<7> & !X<1> & 
+	!X<2> & !X<0> & !RST & !state_FSM_FFd3 & !state_FSM_FFd1 & 
+	state_FSM_FFd2 & !state_FSM_FFd4
+	# !X<3> & !X<6> & X<5> & X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	state_FSM_FFd1 & state_FSM_FFd4
+	# !X<3> & X<6> & !X<5> & !X<4> & !X<7> & X<1> & 
+	D0_Rdy & !X<2> & !X<0> & !RST & state_FSM_FFd3 & 
+	!state_FSM_FFd1 & !state_FSM_FFd2 & state_FSM_FFd4
+
+PIN | X<3> | 64 | 0 | N/A | 62 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<6> | 64 | 0 | N/A | 3 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<5> | 64 | 0 | N/A | 13 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<4> | 64 | 0 | N/A | 12 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<7> | 64 | 0 | N/A | 59 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<1> | 64 | 0 | N/A | 65 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | D0_Rdy | 64 | 0 | N/A | 83 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<2> | 64 | 0 | N/A | 9 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | X<0> | 64 | 0 | N/A | 92 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | RST | 64 | 0 | N/A | 89 | 6 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0 | 1 | 1 | 1 | 15
+PIN | CLK_XT | 4096 | 0 | N/A | 20 | 4 | 1 | 17 | 1 | 14 | 1 | 16 | 1 | 0
+PIN | y | 536871040 | 0 | N/A | 87
